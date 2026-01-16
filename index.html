@@ -71,6 +71,80 @@ body { background:#0c0012; color:white; overflow-x:hidden; scroll-behavior:smoot
 /* HOW IT HELPS BULLETS */
 .help-list { margin-top:30px; list-style: none; font-size:22px; line-height:2; padding-left:0; }
 .help-list li::before { content:"✔"; color:#ff00c8; margin-right:10px; }
+    @media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 12px 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .brand {
+    font-size: 28px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .nav-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-right a {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    height: auto;
+    margin-top: 160px;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 48px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-product {
+    width: 180px;
+    margin-top: 30px;
+  }
+
+  /* GRID */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* VIDEO */
+  .video-demo {
+    width: 100%;
+  }
+
+  /* TEXT */
+  h2 {
+    font-size: 26px;
+  }
+
+  p, li {
+    font-size: 15px;
+  }
+}
 </style>
 </head>
 <body>
@@ -228,4 +302,5 @@ function scrollToSection(id){
 
 </body>
 </html>
+
 
