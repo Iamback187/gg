@@ -36,10 +36,10 @@ body { background:#0c0012; color:white; overflow-x:hidden; scroll-behavior:smoot
 .hero-heading { font-size:130px; font-weight:800; background:linear-gradient(90deg,#c300ff,#ff007a,#ff66c4); -webkit-background-clip:text; color:transparent; animation:hueShift 5s infinite linear;}
 @keyframes hueShift { 0%{filter:hue-rotate(0deg);} 100%{filter:hue-rotate(360deg);} }
 .hero-subtitle { margin-top:15px; font-size:30px; line-height:1.5; opacity:0.8; }
-.know-more-btn { display:inline-block; margin-top:25px; padding:12px 25px; background:#FFFF00; color:white; text-decoration:none; font-weight:600; border-radius:30px; transition:0.3s; }
+.know-more-btn { display:inline-block; margin-top:25px; padding:12px 25px; background:#000000; color:white; text-decoration:none; font-weight:600; border-radius:30px; transition:0.3s; }
 .know-more-btn:hover { transform:scale(1.05); opacity:0.9; }
 .hero-right { position:relative; }
-.hero-product { position:relative; width:250px; z-index:2; }
+.hero-product { position:relative; width:300px; z-index:2; }
 
 /* SECTIONS */
 .section { width:100%; padding:60px 8%; display:block; animation:fadeIn 0.6s ease; }
@@ -223,12 +223,6 @@ function closeForm(){
         <div class="card">Mobile App Integration</div>
     </div>
 </section>
-<section id="knowmore" class="section" data-aos="fade-up">
-    <h2>Know More About SafeLip</h2>
-    <video class="video-demo" autoplay muted loop controls>
-        <source src="assets/demo-video.mp4" type="video/mp4">
-    </video>
-</section>
 
 <!-- ABOUT -->
 <section id="about" class="section" data-aos="fade-up">
@@ -302,5 +296,6 @@ function scrollToSection(id){
 
 </body>
 </html>
+
 
 
